@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pulsometro</title>
+     <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <section class="promo">
+      <div class="container">
+        <header class="header">
+          <a href="#" class="header__logo">
+            <img src="icons/logo.png" alt="logo" />
+          </a>
+          <div class="header__wrapper">
+            <div class="header__official">
+              Representante oficial
+              <span>Garmin, Polar, Suunto</span>
+            </div>
+            <div class="header__contacts">
+              <a href="tel:003493215623" class="header__phone">+34 93 21 56 23</a>
+             <button data-modal="consultation" class="button">Solicitar llamada</button>
+            </div>
+          </div>
+        </header>
+
+        <div class="promo__wrapper">
+          <h1 class="promo__header">Selección del pulsómetro</h1>
+          <h2 class="promo__subheader">Según tu nivel de entrenamiento</h2>
+          <div class="promo__icons">
+            <div class="promo__icon">
+              <img src="icons/main_screen/timer.png" alt="timer" />
+              Tiempo de selección: aprox. 10 minutos
+            </div>
+            <div class="promo__icon">
+              <img src="icons/main_screen/hand-cart.png" alt="carrito de entrega" />
+              Gastos de envío gratis
+            </div>
+            <div class="promo__icon">
+              <img src="icons/main_screen/messages.png" alt="mensajes" />
+              Respondemos a todas las preguntas
+            </div>
+          </div>
+
+          <button data-modal="consultation" class="button button_main">Solicitar consulta</button>
+          <div class="promo__link">
+            
+            <a href="">Ir al catálogo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <h2 class="title">Nuestras ventajas</h2>
+
+        <di class="advantages__wrapper">
+          <div class="advantages__item">
+             <img src="icons/advantages/cup.png" alt="copa" class="advantages__icon">
+           
+             <div class="advantages__subtitle">Compartimos experiencia</div>
+             <div class="advantages__descr">Nuestros empleados siempre están dispuestos a compartir su experiencia, ya que corren maratones, nadan a través del Bósforo y participan en las competiciones de triatlón.</div>
+          </div>
+
+          <div class="advantages__item">
+            <img src="icons/advantages/heart.png" alt="corazón" class="advantages__icon advantages__icon_animated">
+        
+            <div class="advantages__subtitle">Cuidamos tu salud</div>
+            <div class="advantages__descr">Trabajamos para asegurarnos de que tus actividades deportivas beneficien tu salud y llenen de satisfacción a ti y a tu familia.</div>
+          </div>
+
+          <div class="advantages__item">
+            <img src="icons/advantages/shoe.png" alt="zapato" class="advantages__icon">
+           
+            <div class="advantages__subtitle">Enseñamos a correr</div>
+             <div class="advantages__descr">Ayudamos a  aprender las correctas técnicas de correr. Somos amigos del club de running más grande de España - <a href="#">I love running.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="consultation">
+      <div class="container">
+        <h2 class="title title_left">
+          Recibe una consulta gratuita<br>sobre la selección de pulsómetro
+        </h2>
+        <div class="consultation__descr">
+          Sólo tienes que rellenar el formulario de solicitud<br>y te llamaremos en 10 minutos.
+        </div>
+        <form id="consultation-form" class="feed-form" action="#">
+          <input name="name" required placeholder="Nombre" type="text">
+          <input name="phone" required placeholder="Teléfono" >
+          <input name="email" required placeholder="Email" type="email">
+
+          <button class="button button_submit">Solicitar consulta</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="carousel">
+      <div class="container">
+        <div class="carousel__inner">
+          <div>
+            <img src="img/slide_1.jpg" alt="slide">
+          </div>
+          <div>
+            <img src="img/slide_2.jpg" alt="slide">
+          </div>
+          <div>
+            <img src="img/slide_3.jpg" alt="slide">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="catalog">
+      <div class="container">
+        <h2 class="title">Catálogo de pulsómetros</h2>
+        <ul class="catalog__tabs">
+          <li class="catalog__tab catalog__tab_active"><div>Para fitness</div></li>
+          <li class="catalog__tab"><div>Para correr</div></li>
+          <li class="catalog__tab"><div>Para el triatlón</div></li>
+        </ul>
+
+        <div class="catalog__content catalog__content_active">
+          <div class="catalog-item">
+           <div class="catalog-item__wrapper">
+              <div class="catalog-item__content catalog-item__content_active">
+                <img src="img/polarft1.png" alt="pulsómetro" class="catalog-item__img">
+                <div class="catalog-item__subtitle">Pulsómetro Polar FT1</div>
+                <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+               <a href="#" class="catalog-item__link">Leer más</a>
+             </div>
+             <ul class="catalog-item__list">
+               <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+               <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+               <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+               <li>Además, verás los datos de 10 entrenamientos.</li>
+               
+               <a href="#" class="catalog-item__back">Atrás</a>
+              
+             </ul>
+           </div>
+            <hr>
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">47 €</div>
+                <div class="catalog-item__price"> 39€</div>
+              </div>
+              <button class="button button_mini">Comprar</button>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+               <div class="catalog-item__content catalog-item__content_active ">
+                 <img src="img/suunto.png" alt="pulsómetro" class="catalog-item__img">
+                 <div class="catalog-item__subtitle">Pulsómetro Suunto M2</div>
+                 <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+                <a href="#" class="catalog-item__link">Leer más</a>
+              </div>
+              <ul class="catalog-item__list">
+                <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+                <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+                <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+                <li>Además, verás los datos de 10 entrenamientos.</li>
+                <a href="#" class="catalog-item__back">Atrás</a>
+              </ul>
+            </div>
+             <hr>
+ 
+             <div class="catalog-item__footer">
+               <div class="catalog-item__prices">
+                 <div class="catalog-item__old-price">40 €</div>
+                 <div class="catalog-item__price">29 €</div>
+               </div>
+               <button class="button button_mini">Comprar</button>
+             </div>
+           </div>
+           <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+               <div class="catalog-item__content catalog-item__content_active ">
+                 <img src="img/polarft4.png" alt="pulsómetro" class="catalog-item__img">
+                 <div class="catalog-item__subtitle">Pulsómetro Polar FT4</div>
+                 <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+                <a href="#" class="catalog-item__link">Leer más</a>
+              </div>
+              <ul class="catalog-item__list">
+                <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+                <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+                <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+                <li>Además, verás los datos de 10 entrenamientos.</li>
+                <a href="#" class="catalog-item__back">Atrás</a>
+              </ul>
+            </div>
+             <hr>
+ 
+             <div class="catalog-item__footer">
+               <div class="catalog-item__prices">
+                 <div class="catalog-item__old-price">60 €</div>
+                 <div class="catalog-item__price">50 €</div>
+               </div>
+               <button class="button button_mini">Comprar</button>
+             </div>
+           </div>
+           <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+               <div class="catalog-item__content catalog-item__content_active ">
+                 <img src="img/polarft7.png" alt="pulsómetro" class="catalog-item__img">
+                 <div class="catalog-item__subtitle">Pulsómetro Polar FT7</div>
+                 <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+                <a href="#" class="catalog-item__link">Leer más</a>
+              </div>
+              <ul class="catalog-item__list ">
+                <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+                <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+                <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+                <li>Además, verás los datos de 10 entrenamientos.</li>
+                <a href="#" class="catalog-item__back">Atrás</a>
+              </ul>
+            </div>
+             <hr>
+ 
+             <div class="catalog-item__footer">
+               <div class="catalog-item__prices">
+                 <div class="catalog-item__old-price">39 €</div>
+                 <div class="catalog-item__price">33 €</div>
+               </div>
+               <button class="button button_mini">Comprar</button>
+             </div>
+           </div>
+           <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+               <div class="catalog-item__content catalog-item__content_active ">
+                 <img src="img/suuntospartan.png" alt="pulsómetro" class="catalog-item__img">
+                 <div class="catalog-item__subtitle">Pulsómetro Suunto Spartan</div>
+                 <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+                <a href="#" class="catalog-item__link">Leer más</a>
+              </div>
+              <ul class="catalog-item__list ">
+                <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+                <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+                <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+                <li>Además, verás los datos de 10 entrenamientos.</li>
+                <a href="#" class="catalog-item__back">Atrás</a>
+              </ul>
+            </div>
+             <hr>
+ 
+             <div class="catalog-item__footer">
+               <div class="catalog-item__prices">
+                 <div class="catalog-item__old-price">120 €</div>
+                 <div class="catalog-item__price">105 €</div>
+               </div>
+               <button class="button button_mini">Comprar</button>
+             </div>
+           </div>
+           <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+               <div class="catalog-item__content catalog-item__content_active ">
+                 <img src="img/polarft80.png" alt="pulsómetro" class="catalog-item__img">
+                 <div class="catalog-item__subtitle">Pulsómetro Polar FT80</div>
+                 <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+                <a href="#" class="catalog-item__link">Leer más</a>
+              </div>
+              <ul class="catalog-item__list">
+                <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+                <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+                <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+                <li>Además, verás los datos de 10 entrenamientos.</li>
+                <a href="#" class="catalog-item__back">Atrás</a>
+              </ul>
+            </div>
+             <hr>
+ 
+             <div class="catalog-item__footer">
+               <div class="catalog-item__prices">
+                 <div class="catalog-item__old-price">160 €</div>
+                 <div class="catalog-item__price">140 €</div>
+               </div>
+               <button class="button button_mini">Comprar</button>
+             </div>
+           </div>
+        </div>
+        <div class="catalog__content">
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+               <div class="catalog-item__content catalog-item__content_active ">
+                 <img src="img/polarft80.png" alt="pulsómetro" class="catalog-item__img">
+                 <div class="catalog-item__subtitle">Pulsómetro Polar FT80</div>
+                 <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+                <a href="#" class="catalog-item__link">Leer más</a>
+              </div>
+              <ul class="catalog-item__list ">
+                <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+                <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+                <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+                <li>Además, verás los datos de 10 entrenamientos.</li>
+                <a href="#" class="catalog-item__back">Atrás</a>
+              </ul>
+            </div>
+             <hr>
+ 
+             <div class="catalog-item__footer">
+               <div class="catalog-item__prices">
+                 <div class="catalog-item__old-price">160 €</div>
+                 <div class="catalog-item__price">140€</div>
+               </div>
+               <button class="button button_mini">Comprar</button>
+             </div>
+           </div>
+        </div>
+        <div class="catalog__content">
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+               <div class="catalog-item__content catalog-item__content_active ">
+                 <img src="img/suunto.png" alt="pulsómetro" class="catalog-item__img">
+                 <div class="catalog-item__subtitle">Pulsómetro Suunto M2</div>
+                 <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+                <a href="#" class="catalog-item__link">Leer más</a>
+              </div>
+              <ul class="catalog-item__list ">
+                <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+                <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+                <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+                <li>Además, verás los datos de 10 entrenamientos.</li>
+                <a href="#" class="catalog-item__back">Atrás</a>
+              </ul>
+            </div>
+             <hr>
+ 
+             <div class="catalog-item__footer">
+               <div class="catalog-item__prices">
+                 <div class="catalog-item__old-price">40 €</div>
+                 <div class="catalog-item__price">29 €</div>
+               </div>
+               <button class="button button_mini">Comprar</button>
+             </div>
+           </div>
+           <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+               <div class="catalog-item__content catalog-item__content_active ">
+                 <img src="img/polarft1.png" alt="pulsómetro" class="catalog-item__img">
+                 <div class="catalog-item__subtitle">Pulsómetro Polar FT1</div>
+                 <div class="catalog-item__descr">Para los primeros pasos en entrenamientos basados en la frecuencia cardíaca</div>
+                <a href="#" class="catalog-item__link">Leer más</a>
+              </div>
+              <ul class="catalog-item__list ">
+                <li>Escucharás una alerta audible sobre el pulso deseado durante el entrenamiento;</li>
+                <li>Verás el indicador gráfico informativo de las áreas de entrenamiento objetivo del pulso;</li>
+                <li>También verás información sobre el consumo de calorías por ejercicio;</li>
+                <li>Además, verás los datos de 10 entrenamientos.</li>
+                <a href="#" class="catalog-item__back">Atrás</a>
+              </ul>
+            </div>
+             <hr>
+ 
+             <div class="catalog-item__footer">
+               <div class="catalog-item__prices">
+                 <div class="catalog-item__old-price">47 €</div>
+                 <div class="catalog-item__price">39 €</div>
+               </div>
+               <button class="button button_mini">Comprar</button>
+             </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feed">
+      <div class="container">
+        <h2 class="title">Opiniones de los clientes</h2>
+        <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.7s">
+          <img src="img/feed_1.png" alt="Elena García" class="feed__img">
+          <div class="feed__text">
+            <div class="feed__subtitle">Elena García</div>
+                <div class="feed__count">2 medio maratones</div>
+                <div class="feed__descr">No sabía qué comprar y lo pregunté a los chicos de RunSmart: me aconsejaron un pulsómetro que se adaptaba a mis propósitos y mi presupuesto. Después de un tiempo decidí renovar mi gadget y sin dudarlo volví al mismo sitio.
+                <br><br>
+                ¡Nuevos objetivos - nuevo gadget!
+                <br><br>  
+                ¡Gracias, RunSmart!
+                </div>
+          </div>
+        </div>
+
+        <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.7s">
+          <img src="img/feed_2.png" alt="Aitor Moreno" class="feed__img">
+          <div class="feed__text">
+            <div class="feed__subtitle">Aitor Moreno</div>
+                <div class="feed__count">1 medio maratón</div>
+                <div class="feed__descr">Pulsómetro es una cosa muy chula! Solía correr sin el, pero al final no valía la pena hacer esto. Compré el pulsómetro y recibí un entrenamiento como regalo. Un entrenador me enseñó los ejercicios y además ayudó a utilizar mi nuevo gadget. También explicó los fundamentos de anatomía, hizo un plan de entrenamientos para un mes en adelante.
+                <br><br>
+                Con este plan me preparé para mi primer maratón. ¡Gracias!
+              </div>
+          </div>
+        </div>
+
+        <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.7s">
+          <img src="img/feed_3.png" alt="Valeria Ruiz" class="feed__img">
+          <div class="feed__text">
+            <div class="feed__subtitle">Valeria Ruiz</div>
+                <div class="feed__count">2 medio maratones</div>
+                <div class="feed__descr">Durante mucho tiempo no podía empezar a correr, porque lo empezaba muchas veces, pero muy rápido se me ponía pesado y lo dejaba. Escuché hablar sobre RunSmart y control de pulso a mis amigos y decidí probarlo.
+                <br><br>
+                Llamé, me preguntaron por mis objetivos y encontraron una opción muy interesante con un descuento! ¡Ahora hago running y disfruto! Ya hice 2 medio maratones y varias carreras más cortas y no tengo la intención de parar!
+                <br><br>  
+                ¡Gracias!
+                </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.3345907108196!2d-0.5004482236752661!3d38.34123717932765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62364604d64651%3A0x36d91c207e9d0411!2sPl.%20Navarro%20Rodrigo%2C%2003007%20Alicante%20(Alacant)%2C%20Alicante!5e0!3m2!1ses!2ses!4v1695996579871!5m2!1ses!2ses" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+       <div class="footer__info">
+          <address class="footer__addr">Alicante, Pl. Navarro Rodrigo</address> 
+          <a class="footer__phone" href="tel:0034961563123">96 156 31 23</a> 
+          <div class="footer__social">
+            <a href="#" class="footer__social-item"><img src="icons/facebook.svg" alt="facebook"></a>
+            <a href="#" class="footer__social-item"><img src="icons/instagram.svg" alt="instagram"></a>
+            <a href="#" class="footer__social-item"><img src="icons/pinterest.svg" alt="pinterest"></a>
+          </div>
+        </div>
+    </footer>
+
+    <div class="overlay">
+      <div class="modal" id="consultation">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">Por favor, rellena el formulario de la solicitud</div>
+        <div class="modal__descr">y te llamaremos en 10 minutos</div>
+        <form class="feed-form feed-form_mt25" action="#">
+          <input name="name" required placeholder="Nombre" type="text">
+          <input name="phone" required placeholder="Teléfono" >
+          <input name="email" required placeholder="Email" type="email">
+
+          <button class="button button_submit">Solicitar consulta</button>
+        </form>
+      </div>
+
+      <div class="modal" id="order">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">Su pedido:</div>
+        <div class="modal__descr">Pulsómetro Polar FT1</div>
+        <form class="feed-form feed-form_mt25" action="#">
+          <input name="name" placeholder="Nombre" type="text">
+          <input name="phone" placeholder="Teléfono" >
+          <input name="email" placeholder="Email" type="email">
+
+          <button class="button button_submit">Comprar</button>
+        </form>
+      </div>
+
+      <div class="modal modal_mini" id="thanks">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">¡Gracias por enviar la solicitud!</div>
+        <div class="modal__descr">¡Nuestro personal se pondrá en contacto contigo lo más pronto posible!</div>
+      </div>
+    </div>
+
+    <a href="#up" class="pageup">
+       <img src="icons/up.svg" alt="up">
+    </a>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

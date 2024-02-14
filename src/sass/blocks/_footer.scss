@@ -1,0 +1,52 @@
+.footer {
+  height: 6.3rem;
+  position: relative;
+  &__info {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 46rem;
+    height: 27rem;
+    background-color: $main-color;
+    padding: 5rem 6.8rem 6rem 6.8rem;
+  }
+  &__addr {
+    margin-bottom: 3.6rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+  &__phone {
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3.8rem;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &__social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin: 0 1.5rem;
+    img {
+      height: 2.7rem;
+    }
+  }
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

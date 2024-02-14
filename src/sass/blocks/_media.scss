@@ -1,0 +1,229 @@
+/**********************/
+/* BELOW 992px (Tablets) */
+/**********************/
+
+@media (max-width: 62em) {
+  .container {
+    margin: 0 2.3rem;
+  }
+  .header {
+    &__wrapper {
+      gap: 14rem;
+    }
+    &__official {
+      span {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .promo {
+    &__header {
+      font-size: 3.8rem;
+    }
+    &__subheader {
+      font-size: 2rem;
+    }
+  }
+  .title {
+    &_left {
+      font-size: 3rem;
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 55rem;
+    }
+  }
+}
+
+/**********************/
+/* BELOW 752px (Smaller tablets) */
+/**********************/
+
+@media (max-width: 47em) {
+  .header {
+    &__logo {
+      width: 15rem;
+      align-self: flex-start;
+    }
+    &__wrapper {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+  .promo {
+    &__wrapper {
+      align-items: center;
+      margin-top: 8rem;
+    }
+    &__header {
+      font-size: 3.2rem;
+    }
+    &__subheader {
+      font-size: 1.8rem;
+    }
+  }
+  .advantages {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 4rem;
+    }
+    &__subtitle {
+      margin-top: 3rem;
+    }
+    &__descr {
+      margin-top: 2rem;
+    }
+  }
+  .consultation {
+    &__descr {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+    }
+    .title {
+      &_left {
+        text-align: center;
+        font-size: 2.8rem;
+      }
+    }
+    .feed-form {
+      margin: 4rem auto;
+    }
+  }
+  .catalog {
+    &__tab {
+      font-size: 1.6rem;
+    }
+  }
+  .feed {
+    &__item {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 7rem;
+    }
+    &__text {
+      text-align: center;
+      margin-top: 2rem;
+      max-width: 50rem;
+    }
+  }
+  .footer {
+    &__info {
+      width: 36rem;
+      height: 22rem;
+      padding: 3rem 3rem;
+    }
+  }
+}
+
+/**********************/
+/* BELOW 576px (Phones) */
+/**********************/
+
+@media (max-width: 36em) {
+  .promo {
+    &__header {
+      font-size: 2.4rem;
+    }
+    &__subheader {
+      font-size: 1.4rem;
+      margin-top: 0;
+    }
+    &__icons {
+      flex-direction: column;
+      align-items: center;
+      gap: 3.6rem;
+    }
+    &__icon {
+      img {
+        margin-bottom: 1.4rem;
+      }
+    }
+  }
+  .consultation {
+    &__descr {
+      font-size: 1.4rem;
+    }
+    .title {
+      &_left {
+        font-size: 2rem;
+      }
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 40rem;
+    }
+  }
+  .title {
+    font-size: 2.4rem;
+  }
+  .catalog {
+    &__tabs {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+}
+
+/**********************/
+/* BELOW 432px (Smaller Phones) */
+/**********************/
+
+@media (max-width: 27em) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .promo {
+    &__header {
+      font-size: 1.8rem;
+    }
+    &__icons {
+      width: 30rem;
+    }
+  }
+  .consultation {
+    .title {
+      &_left {
+        font-size: 1.8rem;
+      }
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 25rem;
+    }
+  }
+  .footer {
+    &__info {
+      width: 30rem;
+      height: 22rem;
+      padding: 3rem 3rem;
+    }
+  }
+  .modal {
+    width: 26rem;
+    &__close {
+      top: 1.8rem;
+      right: 1rem;
+    }
+    &__subtitle {
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  }
+  .feed-form {
+    width: 18rem;
+    input {
+      height: 3rem;
+    }
+  }
+  .button {
+    &_submit {
+      height: 4.5rem;
+      font-size: 1.4rem;
+    }
+  }
+}
